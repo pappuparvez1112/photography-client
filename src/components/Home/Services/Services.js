@@ -3,6 +3,7 @@ import weeding from '../../../images/weeding.jpg';
 import birthday from '../../../images/birthday.jpg';
 import event from '../../../images/event.jpg';
 import ServiceDetail from '../ServiceDetail/ServiceDetail';
+import './service.css'
 
 const serviceData = [
     {
@@ -27,7 +28,7 @@ const Services = () => {
                 <h2>Services We Provide</h2>
             </div>
             <div className="d-flex justify-content-center">
-            <div className="w-75 row mt-5 pt-5 mr-5">
+            <div   className=" card-deck w-75 row mt-5 pt-5 mr-5 ">
                 {
                     serviceData.map(service => <ServiceDetail service={service} key={service.name}></ServiceDetail>)
                 }

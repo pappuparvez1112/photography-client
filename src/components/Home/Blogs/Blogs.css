@@ -9,10 +9,10 @@
 }
 
 .blogs .card:hover{
-    background-image: linear-gradient(75deg, hsl(64, 79%, 46%),#9fec0f);
+    background-image: linear-gradient(75deg, hsl(98, 49%, 59%),#635ab8);
     color: #fff !important;
     transition:  .1s ;
-    transform: scaleY(.88);
+    transform: scaleY(1.2);
 }
 .blogs .card:hover .card-body{
    

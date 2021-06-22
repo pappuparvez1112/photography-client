@@ -23,7 +23,7 @@ const NavBar = () => {
 
         </li>
         <li className="nav-item ms-5">
-          <a className="nav-link  text-white"  href="/">Dental Services</a>
+          <a className="nav-link  text-white"  href="/"> Services</a>
 
         </li>
         <li className="nav-item ms-5">
@@ -32,6 +32,10 @@ const NavBar = () => {
         </li>
         <li className="nav-item ms-5">
           <a className="nav-link text-white"  href="/">Contact Us</a>
+
+        </li>
+        <li className="nav-item ms-5">
+          <a className="nav-link text-white"  href="/">Admin</a>
 
         </li>
 

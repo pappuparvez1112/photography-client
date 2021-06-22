@@ -1,0 +1,6 @@
+.services-container .card:hover{
+    background-image: linear-gradient(75deg, hsl(64, 79%, 46%),#ecff3d);
+    color: #fff !important;
+    transition:  .1s ;
+    transform: scaleY(.9);
+}
