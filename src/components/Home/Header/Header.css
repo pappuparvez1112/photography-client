@@ -5,7 +5,12 @@
     position:relative;
     background-image: url('../../../images/camera.jpg');
     background-size: cover;
+    /* background-color:#3A4256;
+    z-index: -50; */
 
 }
+
+
+
 
 

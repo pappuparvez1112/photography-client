@@ -7,33 +7,33 @@ import { faFacebookF, faInstagram, faGooglePlusG } from '@fortawesome/free-brand
 const Footer = () => {
     const noNamed = [
         {name: "Emergency photography" , link: "/emergency"},
-        {name: "Check Up" , link: "/checkup"},
+        {name: "VIDEO" , link: "VIDEO"},
         {name: "personal phtography" , link: "/personal-photography"},
         {name: "event-photography" , link: "/event-photography"},
-        {name: "Check Up" , link: "/checkup"},
+        {name: "VIDEO" , link: "VIDEO"},
     ]
     const ourAddress = [
-        {name: "New York - 101010 Hudson" , link: "//google.com/map"},
-        {name: "Yards" , link: "//google.com/map"},
+        {name: "DHAKA - BANGLADESH" , link: "//google.com/map"},
+        {name: "DHANMONDI" , link: "//google.com/map"},
        
     ]
     const oralHealth = [
         {name: "Emergency photography" , link: "/emergency"},
-        {name: "Check Up" , link: "/checkup"},
+        {name: "Photo" , link: "Photo"},
         {name: "personal phtography" , link: "/personal-photography"},
         {name: "event photography" , link: "/event-photography"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Check Up" , link: "/checkup"}
+        {name: "Photo" , link: "Photo"},
+        {name: "Photo" , link: "Photo"},
+        {name: "Photo" , link: "Photo"}
     ]
     const services = [
         {name: "Emergency photography" , link: "/emergency"},
-        {name: "Check Up" , link: "/checkup"},
+        {name: "SHOT" , link: "SHOT"},
         {name: "personal phtography" , link: "/personal-photography"},
         {name: " event photography" , link: "/event-photography"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Check Up" , link: "/checkup"}
+        {name: "SHOT" , link: "SHOT"},
+        {name: "SHOT" , link: "SHOT"},
+        {name: "SHOT" , link: "SHOT"}
     ]
     return (
         <footer className="footer-area clear-both">

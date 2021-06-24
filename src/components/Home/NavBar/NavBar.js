@@ -1,5 +1,6 @@
 import { logDOM } from '@testing-library/react';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../../images/logo.png'
 
 const NavBar = () => {
@@ -31,11 +32,11 @@ const NavBar = () => {
 
         </li>
         <li className="nav-item ms-5">
-          <a className="nav-link text-white"  href="/">Contact Us</a>
+          <Link className="nav-link text-white"  to="/login">Log in</Link>
 
         </li>
         <li className="nav-item ms-5">
-          <a className="nav-link text-white"  href="/">Admin</a>
+          <Link className="nav-link text-white"  to="/dashboard">Dashboard</Link>
 
         </li>
 

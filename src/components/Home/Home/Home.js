@@ -5,6 +5,7 @@ import FeaturedService from '../FeaturedService/FeaturedService';
 import Blogs from '../Blogs/Blogs'
 import Testimonials from '../Testimonials/Testimonials';
 import Footer from '../Footer/Footer'
+import Photographers from '../Photographers/Photographers';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Header></Header>
             <Services></Services>
             <FeaturedService></FeaturedService>
+            <Photographers></Photographers>
             <Blogs></Blogs>
             <Testimonials></Testimonials>
             <Footer></Footer>
